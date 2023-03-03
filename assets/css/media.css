@@ -53,17 +53,18 @@
     /*=======================
             HEADER #toggle_button
     ========================*/
-.toggle_button {
-    display: flex;
-}
+    /* .toggle_button {
+        display: flex;
+    } */
 
-#toggle_button {
-    display: none;
-}
+    #toggle_button {
+        display: none;
+    }
 
-#toggle_button:checked ~ nav ul {
-    display: flex;
-}
+    #toggle_button:checked ~ nav ul {
+        display: flex;
+        /* transition: all 1s ease 0.1s, linear 0.5s, linear 1s; */
+    }
 
 
     /*=======================

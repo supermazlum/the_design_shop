@@ -38,6 +38,7 @@ footer div article:nth-of-type(2) nav a:hover,
 footer div article:nth-of-type(3) p a:hover,
 footer div article:nth-of-type(4) nav a:hover {
     color: #848484;
+    transition-duration: 0.8s ;
 }
 
 
@@ -82,7 +83,6 @@ header nav ul li a {
 .toggle_button {
     display: flex;
     flex-direction: column;
-    /* justify-content: space-between; */
     position: absolute;
     top: 3vh;
     right: 6.4vw;
