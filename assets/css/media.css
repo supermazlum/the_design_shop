@@ -17,6 +17,10 @@
         text-decoration: none;
     }
 
+    header label {
+        cursor: pointer;
+    }
+    
     header label span {
         display: flex;
     }
@@ -110,21 +114,52 @@
     footer div article p,
     footer div article a {
         font-size: 2.6rem;
-        width: 88vw;
     }
 
 
     /*=======================
             FOOTER#div2
     ========================*/
-    footer div:nth-of-type(2) {
-        display: flex;
-        flex-direction: row;
-    }
-
     footer div:nth-of-type(2) p {
         font-size: 2rem;
         margin-right: 3vw;
+    }
+
+
+    /*=======================
+        FORMS_SUBSCRIBE
+    ========================*/
+    form {
+        width: 80vw;
+    }
+
+    form div {
+        width: 90%;
+    }
+
+    form div:nth-of-type(1) {
+        align-items: center;
+    }
+
+    form div:nth-of-type(1) label {
+        font-size: 2.8rem;
+        margin-bottom: 1.5vh;
+    }
+
+    form div:nth-of-type(1) input {
+        width: 45vw;
+        height: 4.7vh;
+    }
+
+    form div:nth-of-type(2) {
+    font-size: 0.9rem;
+    justify-content: center;
+    }
+
+    form div:nth-of-type(3) input {
+    padding: 1.8vh 9vw;
+    border-radius: 10px;
+    font-size: 1.85rem;
     }
 
 }
